@@ -1,0 +1,143 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.pigly_header{
+    width: 1512px;
+    height: 71px;
+    border-bottom: 1px #CDCDCD;
+    justify-content: space-between;
+    display: flex;
+}
+
+.pigly_title{
+    font-family: serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #EC87EF;
+    margin: 10px;
+}
+
+.pigly_link_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 10px;
+}
+
+.pigly_link_menu a{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logout-button{
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+
+.target_weight_img,
+.logout_menu_img{
+    width: 20px;
+    height: 20px;
+}
+
+.weight_main{
+    width: 1512px;
+    height: 1039px;
+    margin-top: 71px;
+    padding: 70px 196px;
+}
+
+.weight_detail{
+    display: flex;
+    width: 1120px;
+    min-height: 154px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.weight_detail_target,
+.weight_detail_diff,
+.weight_detail_current{
+    flex: 1;
+    text-align:center;
+}
+
+.weight_detail_target-wrapper,
+.weight_detail_diff-wrapper,
+.weight_detail_current-wrapper{
+    display: inline-flex;
+    align-items: baseline;
+    gap: 4px;
+}
+
+.weight_detail_unit{
+    margin-left: 10px;
+}
+
+.weight_detail_target-weight{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.weight_detail_diff-weight{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.weight_detail_current-weight{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.weight_log_box{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 1060px;
+    height: 45px;
+}
+
+.search-form__row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-form__item{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.weight_log-add{
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    padding: 7.5px 10px;
+    background-image:linear-gradient(to right,#A3A6E1,#FFABD9);
+}
+
+.weight_log-add-link{
+    font-weight: 300;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}

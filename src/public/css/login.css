@@ -1,0 +1,135 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.outer-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.login{
+    max-width: 580px;
+    width: 100%;
+    max-height: 560px;
+    height: 100%;
+    padding: 40px;
+    border-radius: 24px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.login__header{
+    margin: 0 auto;
+    text-align: center;
+    width: 188px;
+    height: 132px;
+    gap: 10px;
+}
+
+.login__header-title{
+    font-family: serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 100%;
+    color: #EC87EF;
+}
+
+.login__header-login{
+    font-family: serif;
+    font-size: 30px;
+    line-height: 100%;
+    color:#333333;
+}
+
+.login__content{
+    margin-left:30px;
+    justify-content: center;
+}
+
+.login__content-mail{
+    width: 500px;
+    height: 77px;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.login__content-mail-title{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.login__content-pass-title{
+    font-weight: 600;
+    font-size: 16px;
+    color: #333333;
+}
+
+.login__content-mail-main{
+    width: 500px;
+    height: 43px;
+    gap: 10px;
+    border: 1px solid #E0DFDE;
+    border-radius: 5px;
+    padding: 11px 10px;
+}
+
+.login__content-pass-main{
+    width: 500px;
+    height: 43px;
+    gap: 10px;
+}
+
+.login__content-pass-main{
+    width: 500px;
+    height: 43px;
+    gap: 10px;
+    border: 1px solid #E0DFDE;
+    border-radius: 5px;
+    padding: 11px 10px;
+}
+
+.login__content-button{
+    margin-left: 130px;
+}
+
+.login__content-button-main{
+    width: 250px;
+    height: 50px;
+    border-radius: 12px;
+    padding: 10px;
+    gap: 10px;
+    background-image:linear-gradient(to right,#A3A6E1,#FFABD9);
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.login__not-member{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.login__not-member-link{
+    width: 176px;
+    height: 24px;
+    border-bottom: 1px #2C99FF;
+    margin: 0 auto;
+}
+
+.login__error{
+    color: red;
+    margin-top: 15px;
+    height: 20px;
+}

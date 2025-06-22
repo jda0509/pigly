@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateUsersTable extends Migration
+class WeightLogsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,13 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('weight_logs',function(Blueprint $table){
         $table->id();
-        $table->string('name');
-        $table->string('email');
-        $table->string('password');
+        $table->date('date');
+        $table->decimal('weight',4,1);
+        $table->integer('calories')->nullable();
+        $table->time('exercise_time')->nullable();
+        $table->text('exercise_content')->nullable();
         $table->timestamps();
         });
     }
@@ -29,6 +31,6 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('users');
+        //
     }
 }
